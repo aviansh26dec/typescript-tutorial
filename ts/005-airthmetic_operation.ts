@@ -23,7 +23,7 @@ console.log(firstNum % secondNum);
 
 // increement operator
 console.log("Increement Postfix");
-let x : number = 0;
+var x : number = 0;
 while(x < 10){
     console.log(x);
     x++;

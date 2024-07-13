@@ -1,3 +1,3 @@
 "use strict";
-let players = ["Aviansh", "Siddharth"];
+var players = ["Aviansh", "Siddharth"];
 console.log(players);

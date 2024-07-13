@@ -18,7 +18,7 @@ console.log("Modulus");
 console.log(firstNum % secondNum);
 // increement operator
 console.log("Increement Postfix");
-let x = 0;
+var x = 0;
 while (x < 10) {
     console.log(x);
     x++;

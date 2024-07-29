@@ -9,6 +9,11 @@
  * Callbacks are commonly used in asynchronous programming.
  */
 
+/**
+ * Synchronous Execution: Tasks are performed one at a time, blocking the execution of subsequent tasks.
+ * Asynchronous Execution: Tasks can be performed in the background, allowing the main thread to continue executing other code.
+ */
+
 var dbQuery = function() :void {
     setTimeout(function(){
         console.log("DB query fetched");

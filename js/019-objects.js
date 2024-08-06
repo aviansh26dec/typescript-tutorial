@@ -4,7 +4,7 @@ var userInfo = {
     "lastName": "Singh",
     "emailAddress": "avinashkumarsingh.ignou@gmail.com",
     "mobileNumber": "8957947870",
-    sayHello(name) {
+    sayHello: function (name) {
         return "Hey " + name + "! how are you";
     }
 };

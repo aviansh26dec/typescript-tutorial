@@ -1,11 +1,11 @@
 "use strict";
-class PrintInvoice {
-    constructor(amount) {
+var PrintInvoice = /** @class */ (function () {
+    function PrintInvoice(amount) {
         this.total = amount;
     }
-    printTotal() {
+    PrintInvoice.prototype.printTotal = function () {
         console.log(this.total);
-    }
+    };
     /**
      * this keyword do the problem when we call in another scope
      */
@@ -17,12 +17,14 @@ class PrintInvoice {
     /**
      * to resolve this issue we can use arrow function
      */
-    printLater(time) {
-        setTimeout(() => {
-            console.log(this.total);
+    PrintInvoice.prototype.printLater = function (time) {
+        var _this = this;
+        setTimeout(function () {
+            console.log(_this.total);
         }, time);
-    }
-}
+    };
+    return PrintInvoice;
+}());
 var printInvoice = new PrintInvoice(400);
 printInvoice.printTotal();
 printInvoice.printLater(1000);

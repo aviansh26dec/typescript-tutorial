@@ -4,12 +4,13 @@ while (x < 10) {
     console.log("value of x is: " + x);
     x++;
 }
-let loopPlayers = [25, 21, 48, 47];
+var loopPlayers = [25, 21, 48, 47];
 // for in (for in loop return the index value of an array)
-for (let player in loopPlayers) {
-    console.log(player);
+for (var player_1 in loopPlayers) {
+    console.log(player_1);
 }
 // for of (for out loop retur the value of an array)
-for (let player of loopPlayers) {
-    console.log(player);
+for (var _i = 0, loopPlayers_1 = loopPlayers; _i < loopPlayers_1.length; _i++) {
+    var player_2 = loopPlayers_1[_i];
+    console.log(player_2);
 }

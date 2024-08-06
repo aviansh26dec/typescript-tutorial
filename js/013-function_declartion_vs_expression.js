@@ -9,7 +9,7 @@ function fullName(firstName, lastName) {
  * A function expression defines a function inside an expression, often assigning it to a variable. Function expressions can be anonymous (no name) or named. Unlike function declarations, function expressions are not hoisted. They are available only after the line of code where they are defined is executed.
  */
 var otherName;
-otherName = (firstName, lastName) => {
+otherName = function (firstName, lastName) {
     return firstName + " " + lastName;
 };
 var thirdOtherName = function (firstName, lastName) {

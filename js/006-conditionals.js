@@ -1,5 +1,5 @@
 "use strict";
-let password = 'm2n1shlko';
+var password = 'm2n1shlko';
 if (password == 'm2n1shlko') {
     console.log("Yes, " + password + " is your password");
 }

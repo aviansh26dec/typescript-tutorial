@@ -6,7 +6,7 @@
  * do not have their own this context. Instead, they capture the
  * this value from the surrounding lexical context in which the arrow function was created.
  */
-var gradeCheck = (grade) => {
+var gradeCheck = function (grade) {
     if (grade < 60) {
         return 'F';
     }

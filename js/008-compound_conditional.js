@@ -1,6 +1,6 @@
 "use strict";
-let userEmail = 'avinash26dec@gmail.com';
-let userPassword = 'm2n1shlko';
+var userEmail = 'avinash26dec@gmail.com';
+var userPassword = 'm2n1shlko';
 if (userEmail == 'avinash26dec@gmail.com' && userPassword == 'm2n1shlko') {
     console.log("AND operator: You are authorized to access all the features.");
 }

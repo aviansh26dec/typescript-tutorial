@@ -1,5 +1,5 @@
 "use strict";
-let co = 100;
+var co = 100;
 if (co !== 200) {
     console.log("not equal to (!===) Condition Passed");
 }

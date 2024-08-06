@@ -2,11 +2,11 @@
 // string
 var userName = "Avinash Kumar Singh";
 // number
-let totalCount = 1.3;
+var totalCount = 1.3;
 // boolean
-let result = true;
+var result = true;
 // tuple
-let player = ["Avinash", 23];
+var player = ["Avinash", 23];
 // enum
 var approvalStatus;
 (function (approvalStatus) {
@@ -14,9 +14,9 @@ var approvalStatus;
     approvalStatus[approvalStatus["Inavtive"] = 1] = "Inavtive";
 })(approvalStatus || (approvalStatus = {}));
 ;
-let job = approvalStatus.Active;
+var job = approvalStatus.Active;
 // Array
-let age = [25, 23, 22];
+var age = [25, 23, 22];
 // Any
 var data = [25, "Avinash"];
 // Void

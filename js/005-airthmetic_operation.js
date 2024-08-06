@@ -1,6 +1,6 @@
 "use strict";
-let firstNum = 20;
-let secondNum = 2;
+var firstNum = 20;
+var secondNum = 2;
 // Addition
 console.log("Addition");
 console.log(firstNum + secondNum);
@@ -24,20 +24,20 @@ while (x < 10) {
     x++;
 }
 console.log("Increement Prefix");
-let z = 0;
+var z = 0;
 while (z < 10) {
     console.log(z);
     ++z;
 }
 // decreement operator
 console.log("Decreement Postfix");
-let y = 10;
+var y = 10;
 while (y > 0) {
     console.log(y);
     y--;
 }
 console.log("Decreement Prefix");
-let w = 10;
+var w = 10;
 while (w > 0) {
     console.log(w);
     --w;

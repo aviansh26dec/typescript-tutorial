@@ -1,9 +1,9 @@
 "use strict";
-let playernamelist = ["Aviansh", "Siddharth"];
-let playertshirtno = [25, 24];
+var playernamelist = ["Aviansh", "Siddharth"];
+var playertshirtno = [25, 24];
 console.log(playernamelist);
 console.log(playertshirtno);
-let playerN = ["Avinash", "Siddharth"];
+var playerN = ["Avinash", "Siddharth"];
 console.log(playerN);
-let playerName = "Avinash Kumar Singh";
+var playerName = "Avinash Kumar Singh";
 console.log(playerName);
